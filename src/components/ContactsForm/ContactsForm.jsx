@@ -1,27 +1,5 @@
 import { Component } from 'react';
-import styled from 'styled-components';
-
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 300px;
-  margin: 20px;
-`;
-
-const Input = styled.input`
-  padding: 5px;
-  border: 1px solid black;
-  border-radius: 15px;
-`;
-
-const Button = styled.button`
-  padding: 5px;
-  border: 1px solid black;
-  border-radius: 15px;
-  background-color: lightblue;
-  font-size: 16px;
-`;
+import { Form, Input, Button } from './ContactsForm.styled';
 
 class ContactsForm extends Component {
   state = {

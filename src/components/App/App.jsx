@@ -1,7 +1,7 @@
-import ContactsForm from './ContactsForm';
-import ContactsList from './ContactsList';
+import ContactsForm from '../ContactsForm/ContactsForm.jsx';
+import ContactsList from '../ContactsList/ContactsList.jsx';
 import { nanoid } from 'nanoid';
-import Filter from './Filter';
+import Filter from '../Filter/Filter';
 const { Component } = require('react');
 
 class App extends Component {
